@@ -1,0 +1,19 @@
+@api_HostAddress = http://localhost:5147
+
+GET {{api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST https://yourapiendpoint.com/upload
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.txt"
+Content-Type: text/plain
+
+[Contents of your file go here]
+
+----WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
